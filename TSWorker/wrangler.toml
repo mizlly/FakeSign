@@ -5,7 +5,7 @@ compatibility_date = "2024-05-01"
 [vars]
 # TSA_TYPE: Key algorithm type, options: RSA, EC-P256, EC-P384, EC-P521, SM2
 # Default is "RSA" if not set. Only needed when using non-RSA keys.1
-TSA_TYPE = "RSA"
+#TSA_TYPE = "RSA"
 TSA_FAKE = "true"
-TSA_CERT = "-----BEGIN CERTIFICATE----------END CERTIFICATE-----"
-TSA_KEYS = "-----BEGIN PRIVATE KEY----------END PRIVATE KEY-----"
+TSA_CERT = "-----BEGIN CERTIFICATE-----\n...\n-----END CERTIFICATE-----"
+TSA_KEYS = "-----BEGIN PRIVATE KEY-----\n...\n-----END PRIVATE KEY-----"
